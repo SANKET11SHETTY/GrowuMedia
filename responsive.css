@@ -1,0 +1,1456 @@
+@media (max-width: 605px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Nav */
+  Nav ul li a {
+    font-size: 14px !important;
+
+    text-align: center;
+  }
+
+  Nav ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  Nav .nav-btn1 {
+    padding: 0px 0px;
+    width: 125px;
+    height: 44px;
+    max-width: 408px;
+    font-size: 10px !important;
+  }
+
+  Nav {
+    border-radius: 0px;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+
+    .logo-main {
+      img {
+        width: 37px;
+        height: 37px;
+        margin-bottom: 10px;
+      }
+      a {
+        font-size: 22px;
+      }
+    }
+  }
+
+  /* Video editing Agency*/
+  .video-editing {
+    h1 {
+      font-size: 7.5vw;
+      top: 13px;
+    }
+
+    h2 {
+      font-size: 6vw;
+    }
+
+    p {
+      font-size: 3vw;
+      line-height: 125%;
+      max-width: 80%;
+    }
+
+    .vdo-editing-btn {
+      .b1 {
+        padding: 10px 10px !important;
+        width: 120px;
+        height: 40px;
+        font-size: 2.5vw;
+      }
+
+      .b2 {
+        padding: 10px 10px !important;
+        width: 100px;
+        height: 40px;
+        font-size: 2.5vw;
+      }
+    }
+  }
+
+  /* Our Results */
+
+  .brand-logos {
+    max-height: 72px;
+    img {
+      height: 20px;
+    }
+    .viralc {
+      img {
+        height: 40px;
+      }
+    }
+    .good1 {
+      padding-top: 5px;
+    }
+  }
+
+  /* Our Impact */
+  .section2 {
+    h3 {
+      font-size: 6.3vw;
+    }
+
+    .proj-gradient {
+      border-radius: 0px;
+
+      height: 35px !important;
+    }
+
+    .proj-gradient2 {
+      border-radius: 0px;
+
+      height: 35px !important;
+    }
+
+    .projects {
+      max-width: 1296px;
+      height: 350px;
+      border-radius: 0px;
+
+      .proj {
+        width: 134px;
+        height: 135px;
+
+        h3 {
+          font-size: 22px;
+        }
+
+        h4 {
+          font-size: 24px;
+
+          top: 20px;
+        }
+      }
+
+      .pc1 {
+        top: -70px;
+      }
+    }
+
+    .proj-black {
+      h3 {
+        font-size: 17px !important;
+      }
+
+      h4 {
+        top: 5px !important;
+        font-size: 23px !important;
+      }
+    }
+
+    .pc2 {
+      top: -38px;
+    }
+  }
+
+  /* Our Projects Section */
+  .section3 {
+    min-height: 1390px;
+
+    .container {
+      max-width: 1215px;
+      min-height: 885px;
+
+      h2 {
+        font-size: 6.3vw;
+      }
+
+      .our-proj-btns {
+        width: 100%;
+        min-height: 176px;
+        margin-bottom: 60px !important;
+        button,
+        .proj-b1 {
+          padding: 10px 10px !important;
+          width: 100px;
+          height: 40px;
+          font-size: 2.5vw;
+        }
+      }
+
+      .our-project-images {
+        width: 100%;
+        min-height: 546px;
+        .proj-col {
+          width: 277px;
+          height: 158px;
+          margin-bottom: 10px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }
+
+  /* Why we */
+
+  .section4 {
+    .container {
+      h2 {
+        font-size: 6.3vw;
+      }
+
+      .whywe-main {
+        flex-wrap: wrap;
+      }
+
+      .yv-right {
+        flex-wrap: wrap !important;
+      }
+
+      .yv-left {
+        min-height: 543px;
+        max-width: 480px;
+
+        h5 {
+          font-size: 5.3vw;
+        }
+
+        p {
+          font-size: 3.1vw;
+        }
+      }
+    }
+  }
+
+  .section4 {
+    & .carousel-main {
+      & .car-1 {
+        margin-left: 20px !important;
+      }
+    }
+  }
+
+  /* How it works ? */
+  .section5 {
+    margin-left: auto;
+    margin-right: auto;
+    .how-it-works {
+      max-width: 1050px;
+      padding-left: 5px !important;
+      padding-right: 5px !important;
+      h2 {
+        font-size: 6.3vw;
+      }
+      .work-1 {
+        display: block;
+        .work-num {
+          border-radius: 50%;
+          margin-right: 10px !important;
+          height: 80px;
+          width: 200px;
+
+          h5 {
+            font-size: 6.3vw;
+          }
+        }
+      }
+      .work-info {
+        max-width: 432px;
+        h6 {
+          font-size: 4.7vw;
+          width: 100%;
+        }
+
+        p {
+          font-size: 3vw;
+        }
+      }
+
+      .work-arrow {
+        img {
+          width: 100px;
+          height: 50px;
+        }
+      }
+    }
+  }
+
+  /* How it works ? -- 2 */
+  .section6 {
+    .container {
+      max-width: 1080px;
+      min-height: 1100px;
+
+      h2 {
+        font-size: 6.3vw;
+      }
+
+      .plans {
+        .plan1 {
+          margin-left: auto;
+          margin-right: auto;
+          padding: 18px 15px 10px 15px;
+          width: 380px;
+          height: 360px;
+          margin-bottom: 20px;
+          .plan-top {
+            h6 {
+              padding-bottom: 5px !important;
+
+              font-size: 5.5vw;
+            }
+            p {
+              font-size: 3vw;
+
+              line-height: 125%;
+
+              max-width: 90%;
+            }
+          }
+
+          .plan-mid {
+            padding-top: 20px !important;
+            .p-mid-left {
+              h4 {
+                font-size: 12px;
+
+                span {
+                  font-size: 22px;
+                }
+              }
+
+              button {
+                font-size: 10px;
+
+                padding: 0px 0px;
+                max-width: 130px;
+                height: 24px;
+                min-height: 34px;
+              }
+            }
+          }
+
+          .p-mid-right {
+            padding: 9px 10px 0px 10px;
+            max-width: 235px;
+            height: 60px;
+            .p-m-r-title {
+              .p-m-r-title-left {
+                p {
+                  font-size: 10px;
+                }
+              }
+            }
+
+            .pmr-bottom {
+              p {
+                font-size: 9px;
+              }
+            }
+          }
+
+          .plan-btm {
+            flex-wrap: wrap;
+            .plan-btm-inner {
+              max-width: 506px;
+              height: 120px;
+            }
+            p {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* FAQs */
+  .section7 {
+    .container {
+      max-width: 1080px;
+      min-height: 670px;
+      .sec7-title h2 {
+        font-size: 6.3vw;
+      }
+
+      .accordion-button {
+        font-size: 13px;
+      }
+      .accordion-main {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .accordion {
+        p {
+          font-size: 10px;
+        }
+      }
+
+      .accordion-item {
+        width: 360px;
+      }
+
+      .accordion-body {
+        font-size: 13px;
+      }
+
+      .accor-btn1 button {
+        font-size: 13px;
+
+        width: 360px;
+        min-height: 72px;
+      }
+
+      .faq-price {
+        margin-top: 20px !important;
+        height: 112px;
+
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  /* Footer */
+
+  footer {
+    .container {
+      .ftr-top-L {
+        margin-left: auto;
+        margin-right: auto;
+
+        img {
+          width: 180px;
+        }
+        h4 {
+          font-size: 7.5vw;
+        }
+
+        button {
+          font-size: 10px;
+
+          padding: 0px 0px;
+          height: 34px;
+          max-width: 136px;
+          min-height: 34px;
+        }
+      }
+
+      .ftr-top-R {
+        margin-top: 55px;
+      }
+
+      .footer-navs {
+        margin-bottom: 15px;
+
+        width: 100%;
+        min-height: 240px;
+        gap: 68px;
+        justify-content: space-around !important;
+        h5 {
+          font-size: 13px;
+        }
+
+        h6 {
+          font-size: 13px;
+        }
+      }
+    }
+
+    .f-nav-3 {
+      margin-top: -40px;
+    }
+
+    .copyright {
+      font-size: 12px;
+    }
+  }
+  .scroll-content h1 {
+    font-size: 43px;
+  }
+
+  .footer-slide {
+    min-height: 60px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 855px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Nav */
+  Nav ul li a {
+    text-align: center;
+  }
+
+  Nav ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  Nav .nav-btn1 {
+    margin-left: 5px;
+  }
+
+  Nav {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
+  /* Video editing Agency*/
+  .video-editing {
+    h1 {
+      font-size: 8.3vw;
+      top: 13px;
+    }
+
+    h2 {
+      font-size: 6.8vw;
+    }
+
+    p {
+      font-size: 2.4vw;
+      line-height: 125%;
+      max-width: 80%;
+    }
+  }
+
+  /* Our Impact */
+  .section2 {
+    h3 {
+      font-size: 5.3vw;
+    }
+
+    .proj-gradient {
+      max-width: 696px !important;
+    }
+
+    .proj-gradient2 {
+      max-width: 696px !important;
+    }
+
+    .projects-main {
+      max-width: 696px;
+    }
+
+    .projects {
+      max-width: 696px;
+      height: 507px;
+
+      .proj {
+        width: 210px;
+        height: 201px;
+
+        h3 {
+          font-size: 40px;
+        }
+
+        h4 {
+          font-size: 40px;
+
+          top: 20px;
+        }
+      }
+
+      .pc1 {
+        top: -120px;
+      }
+    }
+
+    .proj-black {
+      h3 {
+        font-size: 27px !important;
+      }
+
+      h4 {
+        top: 5px !important;
+        font-size: 28px !important;
+      }
+    }
+
+    .pc2 {
+      top: -58px;
+    }
+  }
+
+  /* Our Projects Section */
+  .section3 {
+    padding-top: 30px;
+    height: 540px !important;
+
+    width: 100%;
+
+    .container {
+      width: 100%;
+      height: 500px !important;
+
+      h2 {
+        font-size: 5.3vw;
+        padding-bottom: 40px !important;
+      }
+
+      .our-proj-btns {
+        padding-right: 20px;
+        width: 100%;
+        min-height: 256px;
+        button,
+        .proj-b1 {
+          padding: 10px 10px !important;
+          width: 150px;
+          height: 70px;
+          font-size: 2.5vw;
+        }
+      }
+
+      .our-project-images {
+        padding-top: 20px;
+
+        width: 100%;
+        height: 413px;
+        .proj-col {
+          width: 247px;
+          height: 178px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }
+
+  /* Why we */
+
+  .section4 {
+    .container {
+      margin-left: 0;
+      margin-right: 0;
+      max-width: 100%;
+      h2 {
+        font-size: 5.3vw;
+      }
+
+      .yv-right {
+        flex-wrap: wrap !important;
+      }
+
+      .yv-left {
+        padding-top: 150px;
+        min-height: 543px;
+        max-width: 580px;
+        padding-right: 30px;
+      }
+    }
+  }
+
+  .section4 {
+    & .carousel-main {
+      & .car-1 {
+        margin-left: 10px !important;
+      }
+    }
+  }
+
+  .section4 {
+    & .container {
+      & .yv-right {
+        & .yvR-left {
+          & .yvR-left-img {
+            width: 212px;
+            height: 294px;
+            max-width: 288px;
+          }
+        }
+      }
+    }
+  }
+
+  .section4 {
+    & .container {
+      & .yv-right {
+        & .yvR-left-percentage {
+          padding: 14px 22px;
+          width: 214px;
+          height: 80px;
+        }
+      }
+    }
+  }
+
+  .section4 {
+    & .container {
+      & .yv-right {
+        & .yvR-left-percentage {
+          & h5 {
+            font-size: 21px;
+          }
+        }
+      }
+    }
+  }
+
+  .section4 {
+    & .container {
+      & .yv-right {
+        & .yvR-left-percentage {
+          & p {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+
+  .section4 {
+    & .container {
+      & .yvR-right {
+        & .yvR-right-percentage {
+          padding: 14px 22px;
+          width: 212px;
+          height: 101px;
+        }
+      }
+    }
+  }
+
+  .section4 {
+    & .container {
+      & .yvR-right {
+        & .yvR-right-percentage {
+          & h5 {
+            font-size: 21px;
+          }
+        }
+      }
+    }
+  }
+
+  .section4 {
+    & .container {
+      & .yvR-right {
+        & .yvR-right-percentage {
+          & p {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+
+  .section4 {
+    & .container {
+      & .yvR-right {
+        & .yvR-right-img {
+          width: 214px;
+          height: 175px;
+        }
+      }
+    }
+  }
+
+  .section4 {
+    & .carousel-main {
+      & .car-1 {
+        padding: 14px 12px !important;
+        min-width: 139px;
+        height: 170px;
+      }
+    }
+  }
+
+  .section4 {
+    & .carousel-main {
+      & .car-1 {
+        & .car-1-bottom {
+          & img {
+            width: 27px;
+            height: 27px;
+          }
+        }
+      }
+    }
+  }
+
+  .car-info {
+    h6 {
+      font-size: 10px !important;
+    }
+
+    p {
+      font-size: 7px !important;
+    }
+  }
+
+  .carousel-main {
+    overflow-y: hidden;
+    .car-1 {
+      .car-1-top {
+        p {
+          font-size: 12px !important;
+        }
+      }
+    }
+  }
+
+  /* How it works ? -- 2 */
+  .section6 {
+    .container {
+      max-width: 1080px;
+      min-height: 990px;
+
+      h2 {
+        font-size: 4.8vw;
+      }
+
+      .plans {
+        .plan1 {
+          margin-left: auto;
+          margin-right: auto;
+          padding: 18px 15px 10px 25px;
+          width: 380px;
+          height: 398px;
+          margin-bottom: 20px;
+          .plan-top {
+            h6 {
+              padding-bottom: 5px !important;
+
+              font-size: 4vw;
+            }
+            p {
+              font-size: 1.8vw;
+
+              line-height: 125%;
+
+              max-width: 90%;
+            }
+          }
+
+          .plan-mid {
+            padding-top: 20px !important;
+            .p-mid-left {
+              h4 {
+                font-size: 12px;
+
+                span {
+                  font-size: 22px;
+                }
+              }
+
+              button {
+                font-size: 10px;
+
+                padding: 0px 0px;
+                max-width: 130px;
+                height: 24px;
+                min-height: 34px;
+              }
+            }
+          }
+
+          .p-mid-right {
+            padding: 9px 10px 0px 10px;
+            max-width: 235px;
+            height: 60px;
+            .p-m-r-title {
+              .p-m-r-title-left {
+                p {
+                  font-size: 10px;
+                }
+              }
+            }
+
+            .pmr-bottom {
+              p {
+                font-size: 9px;
+              }
+            }
+          }
+
+          .plan-btm {
+            flex-wrap: wrap;
+            .plan-btm-inner {
+              max-width: 506px;
+              height: 120px;
+            }
+            p {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* FAQs */
+  .section7 {
+    .faq-price {
+      margin-top: 25px !important;
+    }
+  }
+
+  footer {
+    .ftr-top-L {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
+    .ftr-top-R {
+      padding-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+@media (min-width: 836px) and (max-width: 1201px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Navbar */
+  Nav {
+    width: 98% !important;
+
+    .logo-main {
+      img {
+        width: 37px;
+        height: 37px;
+      }
+      a {
+        font-size: 18px;
+      }
+    }
+
+    ul li a {
+      font-size: 14px !important;
+    }
+
+    .nav-btn1 {
+      padding: 0px 0px;
+      width: 130px;
+      height: 50px;
+      max-width: 408px;
+
+      font-size: 12px !important;
+    }
+  }
+
+  /* Our Impact */
+  .section2 {
+    .main-proj-row {
+      margin-left: -30px;
+    }
+
+    h3 {
+      font-size: 48px;
+    }
+
+    .project-gradient {
+      position: relative;
+      width: 896px;
+    }
+
+    .proj-gradient {
+      border-radius: 36px;
+      width: 896px;
+
+      height: 175px;
+      position: absolute;
+      top: 0;
+    }
+
+    .proj-gradient2 {
+      border-radius: 36px;
+      width: 896px;
+
+      height: 178px;
+      bottom: 47px;
+    }
+
+    .projects {
+      border-radius: 36px;
+      width: 896px;
+      height: 650px;
+
+      .proj {
+        width: 269px;
+        height: 261px;
+
+        h3 {
+          font-size: 51px;
+        }
+
+        h4 {
+          font-size: 46px;
+          top: 24px;
+        }
+      }
+
+      .pc1 {
+        top: -172px;
+      }
+    }
+
+    .proj-black {
+      h3 {
+        font-size: 35px !important;
+      }
+
+      h4 {
+        font-size: 38px !important;
+      }
+    }
+
+    .pc2 {
+      top: -95px;
+    }
+    .pc3 {
+      top: -20px;
+    }
+  }
+
+  /* Our Projects Section */
+
+  .section3 {
+    & .container {
+      .our-proj-btns {
+        width: 100%;
+        height: 176px;
+      }
+    }
+  }
+  .section3 {
+    width: 100%;
+    min-height: 800px;
+
+    .container {
+      max-width: 100%;
+      min-height: 794px;
+
+      h2 {
+        font-size: 48px;
+      }
+
+      .our-project-images {
+        max-width: 100%;
+
+        height: 462px;
+
+        row {
+          justify-content: space-around !important;
+        }
+
+        .proj-col {
+          width: 314px;
+          height: 198px;
+        }
+      }
+    }
+  }
+
+  /* Why we */
+
+  .section4 {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .container {
+      width: 100% !important;
+
+      margin-left: 0;
+      margin-right: 0;
+      h2 {
+        font-size: 48px;
+      }
+
+      .yv-left {
+        padding-top: 30px;
+        min-height: 543px;
+        max-width: 480px;
+
+        h5 {
+          font-size: 26px;
+        }
+
+        p {
+          font-size: 13px;
+          width: 95%;
+        }
+      }
+
+      .yv-right {
+        padding: 16px;
+        padding-bottom: 0px !important;
+        max-width: 543px;
+        height: 200px !important;
+
+        .yvR-left {
+          height: 444px;
+          .yvR-left-img {
+            width: 226px;
+
+            height: 317px;
+            max-width: 288px;
+          }
+        }
+
+        .yvR-left-percentage {
+          padding: 18px 32px;
+          width: 228px;
+          height: 88px;
+
+          h5 {
+            font-size: 25px;
+          }
+          p {
+            font-size: 10px;
+          }
+        }
+      }
+
+      .yvR-right {
+        height: 444px;
+        .yvR-right-percentage {
+          padding: 22px 32px;
+          width: 228px;
+
+          height: 108px;
+
+          h5 {
+            font-size: 25px;
+          }
+
+          p {
+            font-size: 10px;
+          }
+        }
+
+        .yvR-right-img {
+          width: 228px;
+
+          height: 200px;
+        }
+      }
+
+      .yv-l1 {
+        padding-bottom: 25px;
+      }
+    }
+    .carousel-main {
+      .car-1 {
+        padding: 24px 12px;
+        min-width: 200px;
+        height: 142px;
+        margin-left: 4px;
+        .car-1-top {
+          p {
+            font-size: 9px;
+            line-height: 133%;
+          }
+        }
+        .car-1-bottom {
+          img {
+            width: 30px;
+            height: 30px;
+          }
+
+          .car-info {
+            h6 {
+              font-size: 11px;
+            }
+
+            p {
+              font-size: 9px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* How it works ? -- 2 */
+  .section6 {
+    .container {
+      max-width: 100%;
+      min-height: 1100px;
+
+      h2 {
+        font-size: 4.8vw;
+      }
+
+      .plans {
+        justify-content: space-around !important;
+
+        .plan1 {
+          width: 472px;
+        }
+      }
+    }
+  }
+
+  /* FAQs */
+  .section7 {
+    .container {
+      max-width: 100%;
+
+      .accordion-main {
+        justify-content: space-around !important;
+      }
+
+      .accord-right {
+        width: 455px !important;
+      }
+
+      .accordion-item {
+        width: 450px;
+      }
+
+      .accor-btn1 button {
+        width: 452px;
+      }
+
+      .faq-price {
+        max-width: 948px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+
+  /* Footer */
+
+  footer {
+    .container {
+      max-width: 100%;
+
+      .ftr-top-R {
+        width: 570px;
+      }
+
+      .ftr-top-L {
+        h4 {
+          font-size: 38px;
+        }
+
+        img {
+          width: 55%;
+        }
+
+        button {
+          width: 170px;
+          height: 42px;
+        }
+      }
+
+      .footer-navs {
+        justify-content: space-around !important;
+        width: 570px;
+        h5 {
+          font-size: 13px;
+        }
+
+        h6 {
+          font-size: 13px;
+        }
+      }
+    }
+    .scroll-content h1 {
+      font-size: 53px;
+    }
+
+    .copyright {
+      font-size: 12px;
+    }
+  }
+}
+
+@media (min-width: 991px) and (max-width: 997px) {
+  Nav {
+    ul li a {
+      font-size: 13px !important;
+    }
+  }
+
+  .section3 {
+    & .container {
+      .our-proj-btns {
+        width: 100%;
+        height: 176px;
+      }
+    }
+  }
+}
+
+@media (min-width: 600px) and (max-width: 742px) {
+  .section3 {
+    min-height: 843px;
+  }
+
+  .section3 {
+    & .container {
+      .our-proj-btns {
+        padding-right: 0px;
+        width: 100%;
+        min-height: 283px;
+      }
+    }
+  }
+
+  .section3 {
+    & .container {
+      & .our-project-images {
+        .proj-col {
+          width: 190px;
+          height: 149px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }
+  .section3 {
+    & .container {
+      .our-project-images {
+        height: 374px;
+      }
+    }
+  }
+}
+
+@media (min-width: 835px) and (max-width: 942px) {
+  .section3 {
+    width: 100%;
+    min-height: 921px;
+  }
+
+  .section3 {
+    & .container {
+      & .our-project-images {
+        .proj-col {
+          width: 267px;
+          height: 185px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 855px) and (max-width: 993px) {
+  .section4 {
+    .container,
+    .container-md,
+    .container-sm {
+      max-width: 100%;
+    }
+  }
+}
+
+@media (min-width: 835px) and (max-width: 855px) {
+  .section2 {
+    .projects {
+      max-width: 884px;
+      height: 507px;
+    }
+    .proj-gradient,
+    .proj-gradient2 {
+      max-width: 884px !important;
+    }
+  }
+
+  .section4 {
+    height: 1300px;
+
+    .container {
+      height: 1060px;
+
+      .yv-left {
+        padding-top: 72px;
+      }
+      .yv-right {
+        min-height: 922px;
+      }
+    }
+  }
+}
+
+@media (min-width: 440px) and (max-width: 605px) {
+  .video-editing {
+    & .vdo-editing-btn {
+      .b1 {
+        width: 147px;
+        height: 46px;
+
+        font-size: 2.2vw;
+      }
+
+      .b2 {
+        width: 129px;
+        height: 46px;
+        font-size: 2.2vw;
+      }
+    }
+  }
+}
+
+@media (min-width: 1078px) and (max-width: 1200px) {
+  .section4 {
+    & .carousel-main {
+      .car-1 {
+        min-width: 200px;
+      }
+    }
+  }
+}
+
+@media (min-width: 605px) and (max-width: 731px) {
+  /* How it works ? */
+  .section5 {
+    margin-left: auto;
+    margin-right: auto;
+    .how-it-works {
+      max-width: 1050px;
+      padding-left: 5px !important;
+      padding-right: 5px !important;
+      h2 {
+        font-size: 6.3vw;
+      }
+      .work-1 {
+        display: block;
+        .work-num {
+          margin-right: 10px !important;
+          height: 90px;
+          width: 90px;
+
+          h5 {
+            font-size: 5.5vw;
+          }
+        }
+      }
+      .work-info {
+        max-width: 432px;
+        h6 {
+          font-size: 4.7vw;
+          width: 100%;
+        }
+
+        p {
+          font-size: 3vw;
+        }
+      }
+
+      .work-arrow {
+        img {
+          width: 100px;
+          height: 50px;
+        }
+      }
+    }
+  }
+}
