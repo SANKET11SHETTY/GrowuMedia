@@ -37,6 +37,10 @@
 
 <body>
 
+  <!-- Preloader & Cursor GSAP -->
+  <div id="pre-loader1"></div>
+  <div id="cursor"></div>
+
   <!-- Scroll-Top Button -->
   <div id="progress" title="Scroll to top">
     <a href="#top-Main"><span id="progress-value"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
@@ -48,6 +52,7 @@
 
   <!-- Top Section -->
   <section class="section1" id="top-Main">
+    <div class="scroll-watcher"></div>
 
     <!-- Nav -->
     <div class="nav-main d-flex justify-content-center align-content-center">
@@ -94,7 +99,7 @@
     <section class="video-editing text-center mt-5 pt-3 ">
 
       <h1>Not Just Another</h1>
-      <h2>Video Editing Agency</h2>
+      <h2 >Video Editing <span class="auto-typers"></span></h2>
 
       <div class="ve-p d-flex justify-content-center">
         <p class="">We Help You To Start A New Or Grow Your Existing Podcast That Unlocks Opportunities & <span>Leads,
@@ -102,7 +107,7 @@
       </div>
 
       <div class="vdo-editing-btn d-flex justify-content-center gap-3 mt-3">
-        <button class="rounded-pill b1">View Plans & Pricing</button>
+        <button class="rounded-pill b1"><span>View Plans & Pricing</span></button>
         <button class="rounded-pill b2">Our Projects  →</button>
       </div>
 
@@ -162,7 +167,7 @@
   <!-- Our Impact -->
   <section class="section2 text-center  mt-5 pt-5">
 
-    <h3 class="pb-4">Our Impact</h3>
+    <h3 class="pb-4 ani-h">Our Impact</h3>
 
     <div class="project-gradient d-flex justify-content-center mx-auto">
 
@@ -250,7 +255,7 @@
   <section class="section3">
 
     <div class="container px-0 ">
-      <h2 class="text-center py-4">Our Projets</h2>
+      <h2 class="text-center py-4 ani-h">Our Projets</h2>
 
       <div class="our-proj-btns d-flex flex-wrap ms-4 ms-lg-2 ms-xl-2 ms-xxl-2 gap-3 pt-0 mt-0 mb-5 ">
         <button class="proj-b1">All Projects</button>
@@ -272,15 +277,15 @@
 
         <div class="row px-0 mx-0 d-flex justify-content-between align-content-center justify-content-lg-around">
 
-          <div class=" col-12 col-lg-4 col-xl-4 col-xxl-4 proj-col px-0 ">
+          <div class=" col-12 col-lg-4 col-xl-4 col-xxl-4 proj-col px-0 pc-11">
 
             <img src="images/Proj.png" alt="Projects" class="img-fluid " loading="lazy">
           </div>
-          <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 proj-col px-0 ">
+          <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 proj-col px-0 pc-11">
             <img src="images/Proj.png" alt="Projects" class="img-fluid " loading="lazy">
 
           </div>
-          <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 proj-col px-0 ">
+          <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 proj-col px-0 pc-11">
             <img src="images/Proj.png" alt="Projects" class="img-fluid " loading="lazy">
 
           </div>
@@ -289,15 +294,15 @@
 
         <div class="row px-0 mx-auto d-flex justify-content-between mt-4 justify-content-lg-around">
 
-          <div class="col-lg-4 col-xl-4 col-xxl-4 proj-col px-0 col-12">
+          <div class="col-lg-4 col-xl-4 col-xxl-4 proj-col px-0 col-12 pc-22">
             <img src="images/Proj.png" alt="Projects" class="img-fluid " loading="lazy">
 
           </div>
-          <div class="col-lg-4 col-xl-4 col-xxl-4 proj-col px-0 col-12">
+          <div class="col-lg-4 col-xl-4 col-xxl-4 proj-col px-0 col-12 pc-22">
             <img src="images/Proj.png" alt="Projects" class="img-fluid " loading="lazy">
 
           </div>
-          <div class="col-lg-4 col-xl-4 col-xxl-4 proj-col px-0 col-12">
+          <div class="col-lg-4 col-xl-4 col-xxl-4 proj-col px-0 col-12 pc-22">
             <img src="images/Proj.png" alt="Projects" class="img-fluid " loading="lazy">
 
           </div>
@@ -316,7 +321,7 @@
 
     <div class="container px-lg-0">
 
-      <h2 class="text-center py-5">Why We.?</h2>
+      <h2 class="text-center py-5 ani-h">Why We.?</h2>
 
       <div class="whywe-main d-flex justify-content-between px-2 mx-3 ">
 
@@ -531,7 +536,7 @@
 
     <div class="how-it-works ps-4 pb-5 mx-auto">
 
-      <h2 class="text-center py-4">How it works ?</h2>
+      <h2 class="text-center py-4 ani-h">How it works ?</h2>
 
 
       <div class="work-1 d-flex align-content-center  ">
@@ -632,7 +637,7 @@
   <section class="section6">
 
     <div class="container px-0  ">
-      <h2 class="text-center py-4">How it works ?</h2>
+      <h2 class="text-center py-4 ani-h">How it works ?</h2>
 
       <div class="plans d-flex flex-wrap justify-content-between  ">
 
@@ -861,7 +866,7 @@
   <section class="section7 pb-5">
     <div class="container">
       <div class="sec7-title">
-        <h2 class="text-center py-4">FAQs</h2>
+        <h2 class="text-center py-4 ani-h">FAQs</h2>
       </div>
 
 
@@ -1157,6 +1162,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Auto Type -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  
+<!-- GSAP  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!-- Owl Carousel -->
   <script>

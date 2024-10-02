@@ -1,4 +1,7 @@
 @media (max-width: 605px) {
+  #cursor {
+    display: none;
+  }
   html,
   body {
     overflow-x: hidden;
@@ -476,6 +479,10 @@
 }
 
 @media (min-width: 600px) and (max-width: 855px) {
+  #cursor {
+    display: none;
+  }
+
   html,
   body {
     overflow-x: hidden;
